@@ -38,6 +38,7 @@ var templateFuncs = template.FuncMap{
 
 var initializers []func()
 
+// dep test
 // EnablePrefixMatching allows to set automatic prefix matching. Automatic prefix matching can be a dangerous thing
 // to automatically enable in CLI tools.
 // Set this to true to enable it.
